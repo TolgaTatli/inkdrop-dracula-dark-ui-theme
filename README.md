@@ -1,5 +1,7 @@
 # Dracula Dark UI Theme for Inkdrop
-
+  
+![Dracula Syntax](https://raw.githubusercontent.com/TaylanTatli/inkdrop-dracula-dark-ui-theme/master/preview.png)
+  
 [Dracula Theme](https://draculatheme.com)
 
 Inkdrop's UI elements are styled based on [Semantic UI](http://semantic-ui.com/).
