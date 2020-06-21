@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "theme": "ui",
   "description": "Dracula UI Theme for Inkdrop",
+  "repository": "https://github.com/TaylanTatli/inkdrop-dracula-dark-ui-theme",
   "styleSheets": [
     "theme.min.css"
   ],
