@@ -82,8 +82,8 @@
 
 /* Input Text Color */
 @inputColor: @textColor;
-@inputPlaceholderColor: darken(@textColor, 40);
-@inputPlaceholderFocusColor: darken(@textColor, 40);
+@inputPlaceholderColor: @primaryColor;
+@inputPlaceholderFocusColor: lighten(@primaryColor, 10);
 
 /* Line Height Default For Inputs in Browser (Descenders are 17px at 14px base em) */
 @inputLineHeight: unit((17 / 14), em);
@@ -121,11 +121,11 @@
         Page
 --------------------*/
 
-@pageBackground      : #2E3235;
+@pageBackground      : #282A36;
 @pageOverflowX       : hidden;
 
 @lineHeight          : 1.4285em;
-@textColor           : #DDDDDD;
+@textColor           : #F8F8F2;
 
 /*-------------------
       Paragraph
@@ -220,19 +220,19 @@
 --------------------*/
 
 /*---  Colors  ---*/
-@red              : #DB2828;
-@orange           : #C06D36;
-@yellow           : #FBBD08;
+@red              : #FF5555;
+@orange           : #FFB86C;
+@yellow           : #F1FA8C;
 @olive            : #B5CC18;
-@green            : #21BA45;
-@teal             : #00B5AD;
+@green            : #50FA7B;
+@teal             : #8BE9FD;
 @blue             : #2185D0;
 @violet           : #6435C9;
-@purple           : #A333C8;
-@pink             : #E03997;
+@purple           : #BD93F9;
+@pink             : #FF79C6;
 @brown            : #A5673F;
 @grey             : #767676;
-@black            : #F9FAFB;
+@black            : #F8F8F2;
 
 /*---  Light Colors  ---*/
 @lightRed         : #FF695E;
@@ -251,10 +251,10 @@
 
 /*---   Neutrals  ---*/
 @fullBlack        : #FFFFFF;
-@offWhite         : #34393D;
-@darkWhite        : #4B5257;
+@offWhite         : #44475A;
+@darkWhite        : #353849;
 @midWhite         : #666E74;
-@white            : #2E3235;
+@white            : #282A36;
 
 /*--- Colored Backgrounds ---*/
 @redBackground    : #FFE8E6;
@@ -482,7 +482,7 @@
 @whiteBorderColor              : rgba(0, 0, 0, 0.1);
 @selectedWhiteBorderColor      : rgba(0, 0, 0, 0.8);
 
-@solidWhiteBorderColor         : #34393D;
+@solidWhiteBorderColor         : #44475A;
 @selectedSolidWhiteBorderColor : #4D5B66;
 
 
